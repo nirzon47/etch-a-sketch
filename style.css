@@ -14,3 +14,7 @@ body {
 	height: 6.25vh;
 	width: 6.25vw;
 }
+
+.active {
+	background-color: rgb(125, 166, 67);
+}
