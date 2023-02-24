@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+}
+
+#container {
+	display: inline-flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	width: 100vw;
+}
+
+.item {
+	display: inline;
+	height: 6.25vh;
+	width: 6.25vw;
+}
