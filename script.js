@@ -1,7 +1,7 @@
 const container = document.getElementById('container')
 
 function generateNewSketch() {
-	const gridSize = prompt('Enter new grid size (Max input: 100, Min input: 1')
+	const gridSize = prompt('Enter new grid size (Max input: 100, Min input: 1)')
 	removeAllChildren()
 
 	if (gridSize > 100) {

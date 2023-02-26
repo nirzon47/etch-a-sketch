@@ -1,5 +1,20 @@
-body {
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 0;
 	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #ffffb6;
+}
+
+h1 {
+	height: 10vh;
 }
 
 #container {
@@ -9,11 +24,19 @@ body {
 	width: 50vh;
 	justify-content: center;
 	align-items: center;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #000;
+	border: 5px solid #000;
 	border-radius: 10px;
-	padding: 1%;
+	padding: 1vh;
+}
+
+.button-container {
+	padding: 2vh;
+	padding-bottom: 4vh;
+	height: 5vh;
+	width: 50vh;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
 }
 
 .item {
@@ -21,5 +44,13 @@ body {
 }
 
 .active {
-	background-color: rgb(125, 166, 67);
+	background-color: #000;
+}
+
+button {
+	background-color: #202020;
+	color: #fff;
+	padding: 1.5vh;
+	font-size: 12px;
+	border-radius: 10px;
 }
