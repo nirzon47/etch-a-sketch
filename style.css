@@ -31,9 +31,9 @@ h1 {
 
 .button-container {
 	padding: 2vh;
-	padding-bottom: 4vh;
+	padding-bottom: 5vh;
 	height: 5vh;
-	width: 50vh;
+	width: 57vh;
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
@@ -43,8 +43,32 @@ h1 {
 	display: inline;
 }
 
-.active {
+.black {
 	background-color: #000;
+}
+.white {
+	background-color: #fff;
+}
+.red {
+	background-color: #ff0000;
+}
+.green {
+	background-color: #008000;
+}
+.blue {
+	background-color: #0000ff;
+}
+.yellow {
+	background-color: #ffff00;
+}
+.pink {
+	background-color: #ee82ee;
+}
+.purple {
+	background-color: #4b0082;
+}
+.orange {
+	background-color: #ffa500;
 }
 
 button {
@@ -53,4 +77,12 @@ button {
 	padding: 1.5vh;
 	font-size: 12px;
 	border-radius: 10px;
+}
+
+button:hover {
+	border-color: #fff;
+}
+
+button:active {
+	background-color: #0d00ff;
 }
